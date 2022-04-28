@@ -4,24 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>lampada</title>
 </head>
 <body>
     <script>
         function trocarImagem(){
             var elemento = document.getElementById("myImage");
-            if(elemento.src.math("luz-acesa")){
-                elemento.src="luz-apagada.jpg"
+            if (elemento.src.match("luz-acesa")) {
+                elemento.src="luz-apagada (1).jpg";
             } else{
-                elemento.src="luz-acesa.jpg";
+                elemento.src="luz-acesa (2).jpg";
             }
-        }
+        
+}
     </script>
 
-    <p><img id="myImage" src="luz-apagada.jpg" onclick="trocarImagem();"</p>
+    <p><img id="myImage" src="luz-apagada (1).jpg" onclick="trocarImagem();"></p>
     <p>Clique na lampada para liga/desligar a luz</p>
-    <script>
-        
-           
+    <script>           
 </body>
 </html>
