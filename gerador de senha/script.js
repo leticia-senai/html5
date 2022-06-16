@@ -1,8 +1,8 @@
-let sliderElement = document.querySelector ("#slider");
-let buttonElement = document.querySelector ("#button");
+let sliderElement = document.querySelector("#slider");
+let buttonElement = document.querySelector("#button");
 
-let sizePassword = document.querySelector ("#valor");
-let passoword = document.querySelector ("#password");
+let sizePassword = document.querySelector("#valor");
+let passoword = document.querySelector("#password");
 
 let containerPassword = document.querySelector("#container-passoword");
 
